@@ -38,6 +38,7 @@ function displayTable(data, container) {
 
   const table = document.createElement("table");
   table.classList.add("md-typeset__table");
+  table.style = "padding:0px";
 
   const thead = document.createElement("thead");
   const headRow = document.createElement("tr");
@@ -77,12 +78,12 @@ function displayTable(data, container) {
 
   table.appendChild(tbody);
 
-  const wrapper = document.createElement("div");
-  wrapper.classList.add("md-table");
-  wrapper.appendChild(table);
+  //const wrapper = document.createElement("div");
+  //wrapper.classList.add("md-table");
+ // wrapper.appendChild(table);
 
   container.innerHTML = "";
-  container.appendChild(wrapper);
+  container.appendChild(table);
 
   // Reinitialize Tablesort to recognize new table
   if (typeof Tablesort !== "undefined") {

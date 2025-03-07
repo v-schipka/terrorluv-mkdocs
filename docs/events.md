@@ -4,7 +4,7 @@ icon: material/calendar
 
 # Events
 
-Vorhersagen ohen Gewähr :wink:
+Vorhersagen ohne Gewähr :wink:
 
 :material-water-well: - Wunschbrunnen<br>
 :material-shovel: - Mr. Mo's Goldminen Bonus<br>

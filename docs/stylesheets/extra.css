@@ -3,7 +3,7 @@
     color: #E92063; /* Vivid pink for headings */
   }
   button {
-    background-color: #E92063; /* Medium pink */
+    background-color: #e92063; /* Medium pink */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -13,26 +13,11 @@
     margin: 5px;
   }
   button:disabled {
-    background-color: #f5b7d1; /* Lighter pink for disabled state */
+    background-color:rgb(137, 122, 128); /* Lighter pink for disabled state */
     cursor: not-allowed;
   }
   button:hover {
-    background-color: #ff4b93; /* Slightly darker pink on hover */
-  }
-  .prompt {
-    margin-top: 20px;
-    font-size: 18px;
-    color: #E92063; /* Deep pink */
-  }
-
-  .prompt, .challenge {
-    margin-top: 20px;
-    font-size: 18px;
-    color: #E92063; /* Deep pink (matches both .prompt and .challenge) */
-  }
-  .challenge {
-    margin-top: 10px;
-    font-style: italic;
+    background-color: #ec417a; /* Slightly darker pink on hover */
   }
   table {
     width: 100%;

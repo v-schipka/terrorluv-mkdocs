@@ -2,6 +2,15 @@ site_name: Terrorluv
 site_url: https://terrorluv.vercel.app
 theme:
   name: material
+  features:
+    - navigation.tracking
+    #- navigation.instant
+    #- navigation.instant.progress
+    - navigation.indexes
+    - navigation.expand
+    - navigation.sections
+    - toc.follow
+    - toc.integrate
   palette:
     primary: pink
     accent: red
@@ -24,7 +33,9 @@ extra_css:
   - stylesheets/extra.css
   - stylesheets/hyperscript.css
   
-markdown_extensions: 
+markdown_extensions:
+  - toc:
+      toc_depth: 3
   - attr_list
   - md_in_html
   - pymdownx.emoji:
