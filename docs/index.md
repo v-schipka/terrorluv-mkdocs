@@ -1,5 +1,8 @@
 
-Willkommen im Archiv für Dokumente, diverse Informationen und mehr.
+
+Willkommen im Archiv für Dokumente, diverse Informationen und mehr. :smile:
+
+<hr>
 
 ### :octicons-link-16: Wichtige Links
 
@@ -8,7 +11,7 @@ Willkommen im Archiv für Dokumente, diverse Informationen und mehr.
 - [Übersicht der Edelsteine, Effekte und Fähigkeiten (Danke an WeWe)](https://docs.google.com/document/d/1D1xLKf5k3frzplmc-OzoTGBK_OnukqNn/view) 
 - [Tips & Tricks (Danke an Maylenchen)](https://docs.google.com/document/d/1qIff2fPwty_aMW6jFcX2SpbAdU3nh94ozDURiyPZM7k)
 
-
+<hr>
 
 ### :material-food-apple: Äpfel
 
@@ -16,6 +19,7 @@ Anzahl bunter Äpfel zum Aufleveln:
 
 <div class="sheet-container" data-range="apples!A1:E9"></div>
 
+<hr>
 
 ### :material-cards-diamond: Juwelen
 
@@ -23,6 +27,7 @@ Juwelen und deren Effekte:
 
 <div class="sheet-container" data-range="juwelen!A1:D11"></div>
 
+<hr>
 
 ### :fontawesome-solid-cart-shopping: Diamantenshop
 
@@ -30,6 +35,7 @@ Preis/Leistungsverhältnis:
 
 <div class="sheet-container" data-range="dias!A1:F33"></div>
 
+<hr>
 
 ### :material-calendar: Events
 
@@ -66,6 +72,7 @@ Vorhersagen ohne Gewähr :wink:
 | Freitag, 12. Dezember 2025 | :material-water-well: | | :material-shovel: |
 | Mittwoch, 31. Dezember 2025 | :material-water-well: | :material-diamond-stone: | |
 
+<hr>
 
 ### :material-draw-pen: Künstler-Challenge
 
@@ -197,7 +204,6 @@ localStorage.setItem("currentChallenge", selectedChallenge); // Save the challen
 
 
 ### :material-calculator: Kampf-Rechner
-
 
 <form id="valuesForm">
     <label for="angriffskraft">Angriffskraft:</label><br>

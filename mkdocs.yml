@@ -2,8 +2,10 @@ site_name: Terrorluv
 site_url: https://terrorluv.vercel.app
 theme:
   name: material
+  logo: icon.png
+  favicon: icon.png
   features:
-    #- navigation.tracking
+    - navigation.tracking
     #- navigation.instant
     #- navigation.instant.progress
     - navigation.indexes
@@ -14,7 +16,8 @@ theme:
   palette:
     primary: pink
     accent: red
-
+  custom_dir: overrides 
+    
 plugins:
   - privacy:
       links_attr_map:
