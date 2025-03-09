@@ -73,6 +73,12 @@ Vorhersagen ohne Gewähr :wink:
 
 ### :material-draw-pen: Künstler-Challenge
 
+Einmal im Monat werden 2 zufällige Themen aus einem Themen-Pool gezogen. 
+Um ein Thema in den Pool einzukippen, poste das Thema einfach in dem *#zeichnen-tipps-und-tricks* Kanal in Discord.
+
+Sobald die Themen verfügbar sind, suche dir eines aus und klicke auf **[Gib mir eine Herausforderung!]**, um eine zufällige Technik für dein Bild zu erhalten.
+Am Ende des Monats werden die fertigen Bilder im *#zeichnen-challenge-bilder* Kanal gepostet.
+
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
 
@@ -86,14 +92,6 @@ Vorhersagen ohne Gewähr :wink:
 <hr>
 </div>
 
-
-#### Wie funktioniert die Künstler-Challenge?
-
-Einmal im Monat werden 2 zufällige Themen aus einem Themen-Pool gezogen. 
-Um ein Thema in den Pool einzukippen, poste das Thema einfach in dem *#zeichnen-tipps-und-tricks* Kanal in Discord.
-
-Sobald die Themen verfügbar sind, suche dir eines aus und klicke auf **[Gib mir eine Herausforderung!]**, um eine zufällige Technik für dein Bild zu erhalten.
-Am Ende des Monats werden die fertigen Bilder im *#zeichnen-challenge-bilder* Kanal gepostet.
 
 <script>
 const prompts = [
@@ -200,3 +198,28 @@ challengeDisplay.textContent = `Deine Herausforderung: ${selectedChallenge}`;
 localStorage.setItem("currentChallenge", selectedChallenge); // Save the challenge to localStorage
 });
 </script>
+
+
+### :material-calculator: Kampf-Rechner
+
+
+<form id="valuesForm">
+    <label for="angriffskraft">Angriffskraft:</label><br>
+    <input type="number" id="angriffskraft" name="angriffskraft" max="80000000" step="any" required><br>
+    <label for="ko">Knock-Outs:</label><br>
+    <input type="number" id="ko" name="ko" max="1000" required><br>
+
+  <button type="submit">Berechnen</button>
+</form>
+
+<div class="results-container">
+  <u><p id="fight-result">Ohne Elemente:</p></u>
+  <u><p id="fight-result-ele-plus">Mit Element-Vorteil:</p></u>
+</div>
+
+<hr>
+
+### :muscle: Truppenstärken
+
+<div class="sheet-container" data-range="truppen!A1:H45" data-ignore="1,2,4" data-sort-numeric="1,2,3,4,5,6,7"></div>
+
