@@ -1,7 +1,3 @@
----
-title: Links
-icon: octicons/link-16
----
 
 Willkommen im Archiv für Dokumente, diverse Informationen und mehr.
 

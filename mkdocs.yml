@@ -3,14 +3,14 @@ site_url: https://terrorluv.vercel.app
 theme:
   name: material
   features:
-    - navigation.tracking
+    #- navigation.tracking
     #- navigation.instant
     #- navigation.instant.progress
     - navigation.indexes
     - navigation.expand
     - navigation.sections
     - toc.follow
-    - toc.integrate
+    #- toc.integrate
   palette:
     primary: pink
     accent: red
